@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
+
+<body>
+
+    <!-- Start Banner Area -->
+    <section class="banner-area organic-breadcrumb">
+        <div class="container">
+            <div class="breadcrumb-banner d-flex flex-wrap align-items-center">
+                <div class="col-first">
+                    <h1>Thanh Toán Sản Phẩm</h1>
+                    <nav class="d-flex align-items-center justify-content-start">
+                        <a href="/">Trang chủ<i class="fa fa-caret-right" aria-hidden="true"></i></a>
+                        <a href="checkout">Thanh toán sản phẩm</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Banner Area -->
+    <!-- Start Checkout Area -->
+    <div class="container">
+        <div class="checkput-login">
+            <div class="top-title">
+                <p>Bạn muốn phản hồi? <a data-toggle="collapse" href="#checkout-login" aria-expanded="false"
+                        aria-controls="checkout-login">Đăng nhập</a></p>
+            </div>
+            <div class="collapse" id="checkout-login">
+                <div class="checkout-login-collapse d-flex flex-column">
+                    <p>Nếu bạn đã mua sắm với chúng tôi trước đây, vui lòng nhập thông tin của bạn vào các ô bên dưới.
+                        Nếu bạn là khách hàng mới, vui lòng tiếp tục với phần Thanh toán & Giao hàng.</p>
+                    <form action="#" class="d-block">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <input type="text" placeholder="Tên đăng nhập hoặc Email*" onfocus="this.placeholder=''"
+                                    onblur="this.placeholder = 'Tên đăng nhập hoặc Email*'" required
+                                    class="common-input mt-10">
+
+                            </div>
+                            <div class="col-lg-4">
+                                <input type="password" placeholder="Mật khẩu*" onfocus="this.placeholder=''"
+                                    onblur="this.placeholder = 'Mật khẩu*'" required class="common-input mt-10">
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center flex-wrap">
+                            <button class="view-btn color-2 mt-20 mr-20"><span>Đăng nhập</span></button>
+                            <div class="mt-20">
+                                <input type="checkbox" class="pixel-checkbox" id="login-1">
+                                <label for="login-1">Nhớ mật khẩu</label>
+                            </div>
+                        </div>
+                    </form>
+                    <a href="forgetPass" class="mt-10">Quên mật khẩu</a>
+                </div>
+            </div>
+        </div>
+        <div class="checkput-login mt-20">
+            <div class="top-title">
+                <p>Bạn có mã giảm giá? <a data-toggle="collapse" href="#checkout-cupon" aria-expanded="false"
+                        aria-controls="checkout-cupon">Nhập mã giảm giá</a></p>
+            </div>
+            <div class="collapse" id="checkout-cupon">
+                <div class="checkout-login-collapse d-flex flex-column">
+                    <form action="#" class="d-block">
+                        <div class="row">
+                            <div class="col-lg-8">
+                                <input type="text" placeholder="Nhập mã giảm giá" onfocus="this.placeholder=''"
+                                    onblur="this.placeholder = 'Nhập mã giảm giá'" required class="common-input mt-10">
+                            </div>
+                        </div>
+                        <button class="view-btn color-2 mt-20"><span>Xác nhận mã</span></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Checkout Area -->
+    <!-- Start Billing Details Form -->
+    <div class="container">
+        <form action="#" class="billing-form">
+            <div class="row">
+                <div class="col-lg-8 col-md-6">
+                    <h3 class="billing-title mt-20 mb-10">Chi tiết thanh toán</h3>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <input type="text" placeholder="Họ*" onfocus="this.placeholder=''"
+                                onblur="this.placeholder = 'Họ*'" required class="common-input">
+                        </div>
+                        <div class="col-lg-6">
+                            <input type="text" placeholder="Tên*" onfocus="this.placeholder=''"
+                                onblur="this.placeholder = 'Tên*'" required class="common-input">
+                        </div>
+                        <div class="col-lg-12">
+                            <input type="text" placeholder="Công ty" onfocus="this.placeholder=''"
+                                onblur="this.placeholder = 'Công ty'" required class="common-input">
+                        </div>
+                        <div class="col-lg-6">
+                            <input type="text" placeholder="Số điện thoại*" onfocus="this.placeholder=''"
+                                onblur="this.placeholder = 'Số điện thoại*'" required class="common-input">
+                        </div>
+                        <div class="col-lg-6">
+                            <input type="email" placeholder="Địa chỉ Email*" onfocus="this.placeholder=''"
+                                onblur="this.placeholder = 'Địa chỉ Email*'" required class="common-input">
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="sorting">
+                                <select>
+                                    <option value="1">Quốc tịch*</option>
+                                    <option value="1">Việt Nam</option>
+                                    <option value="1">Mỹ</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <input type="text" placeholder="Địa chỉ 01*" onfocus="this.placeholder=''"
+                                onblur="this.placeholder = 'Địa chỉ 01*'" required class="common-input">
+                        </div>
+                        <div class="col-lg-12">
+                            <input type="text" placeholder="Địa chỉ 02*" onfocus="this.placeholder=''"
+                                onblur="this.placeholder = 'Địa chỉ 02*'" required class="common-input">
+                        </div>
+                        <div class="col-lg-12">
+                            <input type="text" placeholder="Tỉnh/Thành phố*" onfocus="this.placeholder=''"
+                                onblur="this.placeholder = 'Tỉnh/Thành phố*'" required class="common-input">
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="sorting">
+                                <select>
+                                    <option value="1">Quận*</option>
+                                    <option value="1">Quận 01</option>
+                                    <option value="1">Quận 02</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <input type="text" placeholder="Postcode/ZIP" onfocus="this.placeholder=''"
+                                onblur="this.placeholder = 'Postcode/ZIP'" class="common-input">
+                        </div>
+                    </div>
+                    <h3 class="billing-title mt-20 mb-10">Chi tiết đơn hàng</h3>
+                    <div class="mt-20">
+                        <input type="checkbox" class="pixel-checkbox" id="login-6">
+                        <label for="login-6">Giao hàng ở địa chỉ khác?</label>
+                    </div>
+                    <textarea placeholder="Ghi chú" onfocus="this.placeholder=''" onblur="this.placeholder = 'Ghi chú'"
+                        required class="common-textarea"></textarea>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="order-wrapper mt-50">
+                        <h3 class="billing-title mb-10">Đơn hàng của bạn</h3>
+                        <div class="order-list">
+                            <div class="list-row d-flex justify-content-between">
+                                <div>Sản phẩm</div>
+                                <div>Thành tiền</div>
+                            </div>
+                            <div class="list-row d-flex justify-content-between">
+                                <div>Pixelstore fresh Blackberry</div>
+                                <div>x 02</div>
+                                <div>$720.00</div>
+                            </div>
+                            <div class="list-row d-flex justify-content-between">
+                                <div>Pixelstore fresh Blackberry</div>
+                                <div>x 02</div>
+                                <div>$720.00</div>
+                            </div>
+                            <div class="list-row d-flex justify-content-between">
+                                <div>Pixelstore fresh Blackberry</div>
+                                <div>x 02</div>
+                                <div>$720.00</div>
+                            </div>
+                            <div class="list-row d-flex justify-content-between">
+                                <h6>Tạm tính</h6>
+                                <div>$2160.00</div>
+                            </div>
+                            <div class="list-row d-flex justify-content-between">
+                                <h6>Tiền giao hàng</h6>
+                                <div>Thấp nhất: $50.00</div>
+                            </div>
+                            <div class="list-row d-flex justify-content-between">
+                                <h6>Tổng tiền</h6>
+                                <div class="total">$2210.00</div>
+                            </div>
+                            <div class="d-flex align-items-center mt-10">
+                                <input class="pixel-radio" type="radio" id="check" name="brand">
+                                <label for="check" class="bold-lable">Kiểm tra thanh toán</label>
+                            </div>
+                            <p class="payment-info">Vui lòng gửi xác nhận đến Tên Cửa hàng, Phố Cửa hàng, Cửa hàng Thị
+                                trấn, Cửa hàng Bang / Quận, Mã bưu điện.</p>
+                            <div class="d-flex justify-content-between">
+                                <div class="d-flex align-items-center">
+                                    <input class="pixel-radio" type="radio" id="paypal" name="brand">
+                                    <label for="paypal" class="bold-lable">Paypal</label>
+                                </div>
+                                <img src="img/organic-food/pm.jpg" alt="" class="img-fluid">
+                            </div>
+                            <p class="payment-info">Thanh toán qua PayPal; bạn có thể thanh toán bằng thẻ tín dụng nếu
+                                bạn không có tài khoản PayPal.</p>
+                            <div class="mt-20 d-flex align-items-start">
+                                <input type="checkbox" class="pixel-checkbox" id="login-4">
+                                <label for="login-4">Tôi đã đọc và chấp nhận các <a href="#" class="terms-link">điều
+                                        khoản*</a></label>
+                            </div>
+                            <button class="view-btn color-2 w-100 mt-20"><span>Tiến hành kiểm tra</span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <!-- End Billing Details Form -->
+
+    <!-- Start Most Search Product Area -->
+    <section class="section-half">
+        <div class="container">
+            <div class="organic-section-title text-center">
+                <h3>Các sản phẩm được tìm kiếm nhiều nhất</h3>
+            </div>
+            <div class="row mt-30">
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="single-search-product d-flex">
+                        <a href="#"><img src="img/r1.jpg" alt=""></a>
+                        <div class="desc">
+                            <a href="#" class="title">Pixelstore fresh Blueberry</a>
+                            <div class="price"><span class="lnr lnr-tag"></span> $240.00</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="single-search-product d-flex">
+                        <a href="#"><img src="img/r2.jpg" alt=""></a>
+                        <div class="desc">
+                            <a href="#" class="title">Pixelstore fresh Cabbage</a>
+                            <div class="price"><span class="lnr lnr-tag"></span> $189.00</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="single-search-product d-flex">
+                        <a href="#"><img src="img/r3.jpg" alt=""></a>
+                        <div class="desc">
+                            <a href="#" class="title">Pixelstore fresh Raspberry</a>
+                            <div class="price"><span class="lnr lnr-tag"></span> $189.00</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="single-search-product d-flex">
+                        <a href="#"><img src="img/r4.jpg" alt=""></a>
+                        <div class="desc">
+                            <a href="#" class="title">Pixelstore fresh Kiwi</a>
+                            <div class="price"><span class="lnr lnr-tag"></span> $189.00</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="single-search-product d-flex">
+                        <a href="#"><img src="img/r5.jpg" alt=""></a>
+                        <div class="desc">
+                            <a href="#" class="title">Pixelstore Bell Pepper</a>
+                            <div class="price"><span class="lnr lnr-tag"></span> $120.00</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="single-search-product d-flex">
+                        <a href="#"><img src="img/r6.jpg" alt=""></a>
+                        <div class="desc">
+                            <a href="#" class="title">Pixelstore fresh Blackberry</a>
+                            <div class="price"><span class="lnr lnr-tag"></span> $120.00</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="single-search-product d-flex">
+                        <a href="#"><img src="img/r7.jpg" alt=""></a>
+                        <div class="desc">
+                            <a href="#" class="title">Pixelstore fresh Brocoli</a>
+                            <div class="price"><span class="lnr lnr-tag"></span> $120.00</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="single-search-product d-flex">
+                        <a href="#"><img src="img/r8.jpg" alt=""></a>
+                        <div class="desc">
+                            <a href="#" class="title">Pixelstore fresh Carrot</a>
+                            <div class="price"><span class="lnr lnr-tag"></span> $120.00</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="single-search-product d-flex">
+                        <a href="#"><img src="img/r9.jpg" alt=""></a>
+                        <div class="desc">
+                            <a href="#" class="title">Pixelstore fresh Strawberry</a>
+                            <div class="price"><span class="lnr lnr-tag"></span> $240.00</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="single-search-product d-flex">
+                        <a href="#"><img src="img/r10.jpg" alt=""></a>
+                        <div class="desc">
+                            <a href="#" class="title">Prixma MG2 Light Inkjet</a>
+                            <div class="price"><span class="lnr lnr-tag"></span> $240.00</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="single-search-product d-flex">
+                        <a href="#"><img src="img/r11.jpg" alt=""></a>
+                        <div class="desc">
+                            <a href="#" class="title">Pixelstore fresh Cherry</a>
+                            <div class="price"><span class="lnr lnr-tag"></span> $240.00 <del>$340.00</del></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="single-search-product d-flex">
+                        <a href="#"><img src="img/r12.jpg" alt=""></a>
+                        <div class="desc">
+                            <a href="#" class="title">Pixelstore fresh Beans</a>
+                            <div class="price"><span class="lnr lnr-tag"></span> $240.00 <del>$340.00</del></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Most Search Product Area -->
+
+</body>
+
+</html>
